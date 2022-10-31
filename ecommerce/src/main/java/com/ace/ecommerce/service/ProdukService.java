@@ -6,7 +6,6 @@ import java.util.UUID;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
-import org.springframework.web.multipart.support.StringMultipartFileEditor;
 
 import com.ace.ecommerce.entity.Produk;
 import com.ace.ecommerce.exception.BadRequestException;

@@ -6,4 +6,6 @@ import com.ace.ecommerce.entity.Pengguna;
 
 public interface PenggunaRepository extends JpaRepository<Pengguna, String> {
 
+    boolean existsByEmail(String email);
+
 }
